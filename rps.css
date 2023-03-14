@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height:max-content; 
+    justify-content:space-between;
+    align-items: center;
+/*    background-image: url(".//img/backgroundImage.jpg"); */
+    background-color:aqua;
+    height: 1200px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+div{
+    padding: 10px;
+}
+
+.button{
+    font-size: 40px;
+    background-color: transparent ;
+    padding: 10px;
+    margin: 120px;
+    border: 0px;
+    color: darkorange;
+}
+
+div1 {
+      display: flex;
+      flex:auto;
+      flex-direction: row;
+      justify-content: space-around;
+      position: relative;
+      width: 500px;
+      height: 80%;
+}
+
+div2 {
+    display: flex;
+    flex:auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width: 500px;
+    height: 200px;
+    margin-bottom: auto;
+    justify-self:flex-end; 
+    flex-grow: 1;
+}
+
+h1{
+    flex: 0 1 auto;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    transform: translateX(-50%);
+    color:crimson;
+    font-size: 50px;
+}
+
+p{
+    font-size: 25px;
+    font-weight: bold;
+    color:black;
+}
+
+img{
+    height: 120px;
+    width: 120px
+}
